@@ -1,10 +1,11 @@
-Shopping Cart System
+## Shopping Cart System
 This is a basic shopping cart system built in JavaScript, designed to add, update, and remove items from a cart while calculating the total cost.
 
-Array Structure
+## Array Structure
 products: An array holding available products, each with properties like name, price, quantity, productId, and image.
 cart: An initially empty array that stores items added to the cart.
-Functions
+
+## Functions
 findProductById(productId): Searches the products array to return a product object by its productId.
 
 addProductToCart(productId): Adds a product to the cart array or increments its quantity if already in the cart.
@@ -21,5 +22,5 @@ emptyCart(): Empties all products from the cart.
 
 pay(amount): Accepts a payment amount, calculates the change or amount owed, and updates the total paid.
 
-Usage
+## Usage
 Use this module to simulate adding, removing, and managing products in a simple shopping cart. Ideal for testing and development in e-commerce applications.
